@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+
+    background-color: #FDF5E6;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+.nav-logo{
+    display: flex;
+    text-decoration: none;
+}
+
+button{
+    display: flex;          
+    flex-direction: column;
+}
