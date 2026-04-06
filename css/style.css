@@ -1,23 +1,36 @@
-html {
-    scroll-behavior: smooth;
+/* Apply to all */
+*{
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
+    min-width: 700px;
     margin: 0;
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav bar section */
 
 nav {
     margin: 0;
     padding: 1rem 1rem; 
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     border-bottom: 1px solid rgba(210, 180, 140, 0.5);
     background-color: #FDF5E6;
-
+    
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -25,6 +38,20 @@ nav {
 
 nav a{
     letter-spacing: 1px;
+    font-size: 110%;
+}
+
+.nav-logo{
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.controls{
+    display: flex;          
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
 }
 
 .nav-links{
@@ -59,15 +86,66 @@ nav a:hover {
   color: #8D6E63; /* 稍微變淺一點點 */
 }
 
-.nav-logo{
-    display: flex;
-    text-decoration: none;
-    
-}
 
-.controls{
-    display: flex;          
+/* About section */
+
+#about{
     flex-direction: column;
     align-items: center;
-    gap: 0.5em;
+
+    padding: 1rem 1rem; 
+    gap: 2rem;
+}
+
+#profile-title{
+    letter-spacing: 1px;
+    font-size: 200%;
+}
+
+#profile-group{
+    width: 1000px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about div{
+    gap: 2em;
+}
+
+/* Left Side */
+#profilePic{
+    flex: 1;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+
+}
+
+#profilePic img{
+    width: 400px;
+    height: 400px;
+    border-radius: 90%;
+
+    overflow: hidden;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Right Side */
+
+.introduction {
+    flex: 1;
+    min-width: 0;           /* add this — crucial for text not overflowing into the image */
+    padding: 1em;
+}
+
+#about p{
+    line-height: 1.6;
+    overflow-wrap: break-word;
 }
