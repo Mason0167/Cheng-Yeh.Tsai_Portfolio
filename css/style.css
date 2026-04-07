@@ -16,6 +16,14 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: 90px;
+
+    padding: 1rem 1rem; 
+    gap: 2rem;
+}
+
+h2{
+    letter-spacing: 1px;
 }
 
 /* Nav bar section */
@@ -88,18 +96,9 @@ nav a:hover {
 
 
 /* About section */
-
 #about{
     flex-direction: column;
     align-items: center;
-
-    padding: 1rem 1rem; 
-    gap: 2rem;
-}
-
-#profile-title{
-    letter-spacing: 1px;
-    font-size: 200%;
 }
 
 #profile-group{
@@ -124,7 +123,6 @@ nav a:hover {
     justify-content: center;
     align-items: center; 
     overflow: hidden;
-
 }
 
 #profilePic img{
@@ -148,4 +146,33 @@ nav a:hover {
 #about p{
     line-height: 1.6;
     overflow-wrap: break-word;
+}
+
+/* Skills section */
+#skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    flex: 1;
+    gap: 5em;
+}
+
+/* Projects section */
+.projects-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 5em;
 }
