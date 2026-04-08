@@ -9,6 +9,8 @@
     href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap"
     rel="stylesheet"> -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -35,7 +37,7 @@
     <!--  ABOUT  -->
     <section id="about">
         <!-- Profile Title -->
-        <h2 id="profile-title">About</h2>
+        <h1 class="profile-title">About</h1>
 
         <div id="profile-group">
             <!-- Photo on the left -->
@@ -45,7 +47,7 @@
 
             <!-- My Introduction  -->
             <div class="introduction">
-                <p>introductionintroductionintroductionintroductionintroductionintroductionintroductionintroductionintroduction</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum sint ducimus autem ipsa officia odio ut qui praesentium at velit, aut cum optio maiores magnam ullam, aliquid obcaecati nihil facere!</p>
             </div>
         </div>
         
@@ -54,11 +56,11 @@
     <!--  SKILLS  -->
     <section id="skills">
         <!-- Skill Title -->
-        <h2 class="skill-title">Skills</h2>
+        <h1 class="skill-title">Skills</h1>
 
         <!-- Skill Area -->
         <div class="skill-area">
-            <div class="frontend">
+            <div class="skill-cards">
                 <h3>Frontend</h3>
                 <p>HTML</p>
                 <p>CSS</p>
@@ -66,7 +68,7 @@
                 <!-- <p>TYPESCRIPT</p> -->
             </div>
 
-            <div class="backend">
+            <div class="skill-cards">
                 <h3>Backend</h3>
                 <p>C#</p>
                 <p>PHP</p>
@@ -75,7 +77,7 @@
                 <p>ASP.NET CORE</p>
             </div>
 
-            <div class="tools&others">
+            <div class="skill-cards">
                 <h3>Tools & Others</h3>
                 <p>SQLITE</p>
                 <p>MYSQL</p>
@@ -83,7 +85,7 @@
                 <p>BASH</p>
                 <p>GIT</p>
                 <p>JUNIT</p>
-                <p>RESTAPI</p>
+                <p>REST API</p>
             </div>
         </div>
         
@@ -92,63 +94,215 @@
     <!--  PROJECTS  -->
     <section id="projects">
         <!-- Project Title -->
-        <h2 class="project-title">Projects</h2>
+        <h1 class="project-title">Projects</h1>
 
         <!-- Project Grid -->
-        <div class="projects-grid">
+        <div class="project-grid">
+            <article class="project-cards">
+
+                <div class="project-pictures">
+                    <button class="prev-btn">❮</button>
+            
+                    <div class="slider-container-wide">
+                        <div class="slider-track">
+                            <div class="slide"><img src="img/trip-planner/index.png" alt="Project picture 1"></div>
+                            <div class="slide"><img src="img/trip-planner/login.png" alt="Project picture 2"></div>
+                            <div class="slide"><img src="img/trip-planner/itinerary.png" alt="Project picture 3"></div>
+                            <div class="slide"><img src="img/trip-planner/itineraryitem.png" alt="Project picture 4"></div>
+                            <div class="slide"><img src="img/trip-planner/newTrip.png" alt="Project picture 5"></div>
+                            <div class="slide"><img src="img/trip-planner/footer.png" alt="Project picture 6"></div>
+                            <div class="slide"><img src="img/trip-planner/admin.png" alt="Project picture 7"></div>
+                            <div class="slide"><img src="img/trip-planner/adminItinerary.png" alt="Project picture 8"></div>
+                            <div class="slide"><img src="img/trip-planner/adminUser.png" alt="Project picture 9"></div>
+
+                        </div>
+                    </div>
+            
+                    <button class="next-btn">❯</button>
+                </div>
+
+                <div class="project-info">
+                    <h2 class="project-title">Voyago - Travel Planning Website</h2>
+                    <p class="project-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt odit architecto id, reiciendis fuga voluptates veniam quae impedit provident eligendi fugit quam vel accusamus maxime nostrum a culpa molestiae!
+                    </p>
+
+                    <ul class="project-tech">
+                        <li>ASP.NET</li>
+                        <li>C#</li>
+                        <li>SQL SERVER</li>
+                        <li>REST API</li>
+                    </ul>
+
+                    <div class="project-link">
+                        <a href="https://github.com/Mason0167/Comp2154_Voyago" 
+                            target="_blank" 
+                            aria-label="GitHub Repository">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
 
             <article class="project-cards">
-                <div class="card-pictures">
-                    <img>
+                <div class="project-pictures">
+                    <button class="prev-btn">❮</button>
+                
+                    <div class="slider-container-wide">
+                        <div class="slider-track">
+                            <div class="slide"><img src="img/event-management/index.png" alt="Project picture 1"></div>
+                            <div class="slide"><img src="img/event-management/event.png" alt="Project picture 2"></div>
+                            <div class="slide"><img src="img/event-management/purchaseRecord.png" alt="Project picture 3"></div>
+                            <div class="slide"><img src="img/event-management/dashboard.png" alt="Project picture 4"></div>
+                        </div>
+                    </div>
+                
+                    <button class="next-btn">❯</button>
+                </div>
+
+                <div class="project-info">
+                    <h2 class="project-title">Event Management Application</h2>
+                    <p class="project-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt odit architecto id, reiciendis fuga voluptates veniam quae impedit provident eligendi fugit quam vel accusamus maxime nostrum a culpa molestiae!
+                    </p>
+
+                    <ul class="project-tech">
+                        <li>ASP.NET</li>
+                        <li>C#</li>
+                        <li>POSTGRESQL</li>
+                    </ul>
+
+                    <div class="project-link">
+                        <a href="https://github.com/Mason0167/Assignments_MVC2139" 
+                            target="_blank" 
+                            aria-label="GitHub Repository">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-cards">
+                <div class="project-pictures">
+                    <button class="prev-btn">❮</button>
+                
+                    <div class="slider-container-wide">
+                        <div class="slider-track">
+                            <div class="slide"><img src="img/payrol-system/main.png" alt="Project picture 1"></div>
+                            <div class="slide"><img src="img/payrol-system/payroll.png" alt="Project picture 2"></div>
+                            <div class="slide"><img src="img/payrol-system/employee.png" alt="Project picture 3"></div>
+                            <div class="slide"><img src="img/payrol-system/report.png" alt="Project picture 4"></div>
+                        </div>
+                    </div>
+                    
+                    <button class="next-btn">❯</button>
+                </div>
+                    
+                <div class="project-info">
+                    <h2 class="project-title">Employee Payroll Management System</h2>
+                    <p class="project-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt odit architecto id, reiciendis fuga voluptates veniam quae impedit provident eligendi fugit quam vel accusamus maxime nostrum a culpa molestiae!
+                    </p>
+
+                    <ul class="project-tech">
+                        <li>JAVA</li>
+                        <li>JAVAFX</li>
+                        <li>MAVEN</li>
+                    </ul>
+
+                    <div class="project-link">
+                        <a href="https://github.com/Mason0167/COMP2130-Assignment2-Fall2025" 
+                            target="_blank" 
+                            aria-label="GitHub Repository">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="project-cards">
+                <div class="project-pictures">
+                    <button class="prev-btn">❮</button>
+                    
+                    <div class="slider-container-wide">
+                        <div class="slider-track">
+                            <div class="slide"><img src="img/email-notion.png" alt="Project picture 1"></div>
+                        </div>
+                    </div>
+                    
+                    <button class="next-btn">❯</button>
+                </div>
+
+                <div class="project-info">
+                    <h2 class="project-title">Gmail Attachment To Notion</h2>
+                    <p class="project-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt odit architecto id, reiciendis fuga voluptates veniam quae impedit provident eligendi fugit quam vel accusamus maxime nostrum a culpa molestiae!
+                    </p>
+
+                    <ul class="project-tech">
+                        <li>PYTHON</li>
+                        <li>GMAIL API</li>
+                        <li>NOTION API</li>
+                    </ul>
+
+                    <div class="project-link">
+                        <a href="https://github.com/Mason0167/https://github.com/Mason0167/python-gmail-attachments-to-notion-practice" 
+                            target="_blank" 
+                            aria-label="GitHub Repository">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-cards-tall">
+                <div class="project-pictures" id="project-pictures-tall">
+                    <button class="prev-btn">❮</button>
+            
+                    <div class="slider-container-tall">
+                        <div class="slider-track">
+                            <div class="slide"><img src="img/expense-tracker/Index.png" alt="Project picture 1"></div>
+                            <div class="slide"><img src="img/expense-tracker/Login.png" alt="Project picture 2"></div>
+                            <div class="slide"><img src="img/expense-tracker/Register.png" alt="Project picture 3"></div>
+                            <div class="slide"><img src="img/expense-tracker/ViewExpense.png" alt="Project picture 4"></div>
+                            <div class="slide"><img src="img/expense-tracker/AddTrip.png" alt="Project picture 5"></div>
+                            <div class="slide"><img src="img/expense-tracker/AddExpense.png" alt="Project picture 6"></div>
+                        </div>
+                    </div>
+            
+                    <button class="next-btn">❯</button>
                 </div>
                 
-                <div class="card-info">
-                    <h3>Travel Expense Tracker</h3>
-                    <div class="card-description"></div>
-                    <div class="card-tech"></div>
-                    <div class="card-link"></div>
+                <div class="project-info" id="project-info-tall">
+                    <h2 class="project-title">Travel Expense Tracker</h2>
+                    <p class="project-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt odit architecto id, reiciendis fuga voluptates veniam quae impedit provident eligendi fugit quam vel accusamus maxime nostrum a culpa molestiae!
+                    </p>
+
+                    <ul class="project-tech">
+                        <li>PYTHON</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>SQLITE</li>
+                    </ul>
+
+                    <div class="project-link">
+                        <a href="https://github.com/Mason0167/python-travel-expense-tracker" 
+                            target="_blank" 
+                            aria-label="GitHub Repository">
+                        <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
                 </div>
             </article>
-
-            <article class="project-cards">
-                <div class="card-pictures">
-                    <img>
-                </div>
-                <div class="card-info">
-                    <h3>Voyago - Travel Planning Website</h3>
-                    <div class="card-description"></div>
-                    <div class="card-tech"></div>
-                    <div class="card-link"></div>
-                </div>
-            </article>
-
-            <article class="project-cards">
-                <div class="card-pictures">
-                    <img>
-                </div>
-                <div class="card-info">
-                    <h3>Event Management Application</h3>
-                    <div class="card-description"></div>
-                    <div class="card-tech"></div>
-                    <div class="card-link"></div>
-                </div>
-            </article>
-
-            <article class="project-cards">
-                <div class="card-pictures">
-                    <img>
-                </div>
-                <div class="card-info">
-                    <h3>Employee Payroll Management System</h3>
-                    <div class="card-description"></div>
-                    <div class="card-tech"></div>
-                    <div class="card-link"></div>
-                </div>
-            </article>
-
+            
         </div>
     </section>
 
+    <script src="js/script.js"></script>
+    
     <!--  FOOTER  -->
     <footer>
         <p class="footer-copy">
