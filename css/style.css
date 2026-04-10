@@ -22,7 +22,7 @@ section{
     
 }
 
-h1, h2, p, li{
+h1, h2, h3, p, li{
     letter-spacing: 1px;
 }
 
@@ -72,6 +72,7 @@ nav a{
     color: #5D4037; /* 建議一個適合米色的深褐色 */
     transition: all 0.3s ease; /* 增加一個平滑的過渡感 */
     position: relative;
+    font-size: 140%;
 }
 
 .nav-links a::after {
@@ -90,7 +91,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  color: #8D6E63; /* 稍微變淺一點點 */
+  color: #8D6E63;
 }
 
 
@@ -148,10 +149,13 @@ button {
 
 /* Right Side */
 
-.introduction {
+.about-me {
     flex: 1;
-    min-width: 0;           /* add this — crucial for text not overflowing into the image */
-    padding: 1em;
+    min-width: 0;
+}
+
+.about-intro{
+    flex: 1;
 }
 
 #about p{
@@ -258,7 +262,7 @@ button {
 }
 
 .project-link a:hover {
-  color: #000;
+  color: #8D6E63;
 }
 
 /* Project Image slider */
@@ -311,4 +315,37 @@ button {
     width: 100%;
     
     object-fit: contain;
+}
+
+
+/* Footer section */
+.footer-copy{
+    margin: 0;
+    padding: 10px;
+    background-color: #FDF5E6
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: #FDF5E6
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    font-size: 30px;
+    color: #5D4037;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #8D6E63;
 }
