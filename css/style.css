@@ -363,3 +363,49 @@ footer {
 .footer-links a:hover {
     color: #8D6E63;
 }
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0e6d3;
+}
+
+body.dark-mode nav {
+    background-color: #2a2a2a;
+    border-bottom-color: rgba(210, 180, 140, 0.2);
+}
+
+body.dark-mode .nav-links a,
+body.dark-mode nav a:visited {
+    color: #D2B48C;
+}
+
+body.dark-mode .controls button,
+body.dark-mode footer,
+body.dark-mode .footer-links,
+body.dark-mode .footer-copy{
+    color: #D2B48C;
+    background-color: #2a2a2a;
+}
+
+body.dark-mode .skill-cards {
+    background-color: #3a2e1e;
+}
+
+body.dark-mode .project-tech li {
+    background-color: #5D4037;
+    color: #f0e6d3;
+}
+
+body.dark-mode .slider-container-wide,
+body.dark-mode .slider-container-tall {
+    border-color: #5D4037;
+}
+
+body.dark-mode .project-link a {
+    color: #D2B48C;
+}
+
+body.dark-mode .footer-links a {
+    color: #D2B48C;
+}

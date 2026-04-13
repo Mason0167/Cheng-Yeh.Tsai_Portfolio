@@ -21,3 +21,11 @@ document.querySelectorAll('.project-pictures').forEach((slider) => {
     updateSlider();
   });
 });
+
+const themeToggle = document.getElementById('themeToggle');
+
+themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const isDark = document.body.classList.contains('dark-mode');
+    themeToggle.textContent = isDark ? '☀️' : '🌙';
+});
