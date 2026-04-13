@@ -370,7 +370,7 @@ body.dark-mode nav {
 }
 
 body.dark-mode .nav-links a,
-body.dark-mode .nav-hero{
+body.dark-mode #nav-hero{
     color: #D2B48C;
 }
 
