@@ -68,6 +68,7 @@ nav a{
 }
 
 .nav-logo{
+    color: #5D4037;
     display: flex;
     text-decoration: none;
 }
@@ -88,8 +89,8 @@ nav a{
 
 .nav-links a{
     text-decoration: none;
-    color: #5D4037; /* 建議一個適合米色的深褐色 */
-    transition: all 0.3s ease; /* 增加一個平滑的過渡感 */
+    color: #5D4037;
+    transition: all 0.3s ease;
     position: relative;
     font-size: 130%;
 }
