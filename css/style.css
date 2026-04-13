@@ -17,17 +17,35 @@ section{
     align-items: center;
     scroll-margin-top: 100px;
 
-    padding: 1rem 1rem; 
-    gap: 1rem;
+    padding: 1rem;
     
+    border-bottom: 1px solid #3d3d3d;
 }
 
 h1, h2, h3, p, li{
     letter-spacing: 1px;
 }
 
-/* Nav bar section */
+p{
+    line-height: 1.6;
+}
 
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #FDF5E6;
+}
+
+.about-title, .skill-title, .project-title{
+    margin: 0;
+}
+
+.skill-title, .project-title{
+    margin-bottom: 16px;
+}
+
+
+/* Nav bar section */
 nav {
     margin: 0;
     padding: 1rem 1rem; 
@@ -94,10 +112,8 @@ nav a:hover {
   color: #8D6E63;
 }
 
-button {
-    border: none;
-    cursor: pointer;
-    background-color: #FDF5E6;
+.prev-btn, .next-btn{
+    padding: 10px 15px;
 }
 
 /* About section */
@@ -113,10 +129,6 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.profile-title{
-    margin: 0;
 }
 
 #about div{
@@ -158,18 +170,10 @@ button {
     font-size: 110%;
 }
 
-.about-intro h3{
+.about-intro h3, .about-intro h1{
     margin: 0;
 }
 
-.about-intro h1{
-    margin: 0;
-}
-
-#about p{
-    line-height: 1.6;
-    overflow-wrap: break-word;
-}
 
 /* Skills section */
 #skills{
@@ -177,14 +181,12 @@ button {
     flex-direction: column;
 }
 
-.skill-title{
-    margin-top: 0;
-}
-
 .skill-area{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    margin-bottom: 40px;
     
     flex: 1;
     gap: 5em;
@@ -197,6 +199,10 @@ button {
     font-size: 120%;
 }
 
+.skill-cards p{
+    margin: 15px 0;
+}
+
 /* Projects section */
 #projects{
     display: flex;
@@ -206,7 +212,7 @@ button {
 .project-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 4em;
+    padding: 0 1em;
     row-gap: 2em;
 }
 
@@ -217,20 +223,15 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
-.project-title{
-    padding: 16px;
-    margin: 16px 0 0 0;
-}
-
-.project-link{
-    margin: 16px 0 0 0;
+.project-subtitle{
+    margin: 0;
 }
 
 .project-info{
-    max-width: 80%;
+    max-width: 75%;
+    padding: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -251,19 +252,19 @@ button {
     padding-left: 30px;
 }
 
+
 /* Project Tech */
 .project-tech{
     list-style: none;
     padding: 0;
-    margin: 16px 0;
 }
 
 .project-tech li{
     display: inline-block; 
     background-color: #ffcb69;
 
-    gap: 20px;
-    padding: 7px;
+    gap: 25px;
+    padding: 9px;
     border-radius: 20px;
 }
 
@@ -343,7 +344,7 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
     background-color: #FDF5E6
 }
 
