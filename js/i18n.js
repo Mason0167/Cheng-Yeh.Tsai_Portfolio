@@ -9,7 +9,7 @@ const translations = {
         about_intro: "Hi, my name is",
         about_name: "Cheng-Yeh Tsai",
         about_me_1: "My technical foundation includes database design, data modeling, and Python-based workflows, with particular attention to ETL processes for transforming and managing data efficiently. I prioritize clarity, consistency, and data integrity when designing solutions.",
-        about_me_2: "My approach to problem-solving is analytical and detail-driven. I work systematically to break down complex data problems, identify patterns, and implement structured solutions. This includes handling data validation, ensuring accuracy across pipelines, and maintaining clean and maintainable code.",
+        about_me_2: "With a Computer Programming diploma from George Brown Polytechnic and a Bachelor of Psychology from the Fo Guang University, my approach to problem-solving is analytical and detail-driven. I work systematically to break down complex data problems, identify patterns, and implement structured solutions. This includes handling data validation, ensuring accuracy across pipelines, and maintaining clean and maintainable code.",
         about_me_3: "I am particularly interested in roles related to data engineering, where I can further develop scalable data pipelines and contribute to data-driven systems. My goal is to apply my technical skills in practical environments, continuously improving both system performance and data reliability while maintaining a disciplined and methodical development approach.",
 
         skill_front: "Frontend",
