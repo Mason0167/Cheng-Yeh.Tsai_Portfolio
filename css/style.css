@@ -106,14 +106,6 @@ nav a{
     transition: width 0.3s ease;
 }
 
-nav a:visited {
-  color: #5D4037; 
-}
-
-nav a:hover {
-  color: #8D6E63;
-}
-
 /* About section */
 #about{
     flex-direction: column;
