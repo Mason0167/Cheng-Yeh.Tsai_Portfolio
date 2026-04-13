@@ -79,7 +79,7 @@ function switchLanguage(lang) {
     localStorage.setItem('currentLang', lang);
 }
 
-// 網頁載入時自動套用上次選的語言
+// Apply the language and theme which user selected beofre
 document.addEventListener('DOMContentLoaded', () => {
     let currentLang = localStorage.getItem('currentLang')
     console.log(localStorage.getItem('currentLang'))

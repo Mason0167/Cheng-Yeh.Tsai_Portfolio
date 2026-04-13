@@ -22,8 +22,6 @@ document.querySelectorAll('.project-pictures').forEach((slider) => {
   });
 });
 
-
-
 const themeToggle = document.getElementById('themeToggle');
 
 themeToggle.addEventListener('click', () => {
