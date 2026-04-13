@@ -17,7 +17,7 @@ section{
     align-items: center;
     scroll-margin-top: 100px;
 
-    padding: 1rem;
+    margin-top: 1.7rem;
     
     border-bottom: 1px solid #3d3d3d;
 }
@@ -48,7 +48,7 @@ button {
 /* Nav bar section */
 nav {
     margin: 0;
-    padding: 1rem 1rem; 
+    padding: 0.5rem 1rem; 
     
     display: flex;
     justify-content: space-between;
@@ -76,13 +76,14 @@ nav a{
     display: flex;          
     flex-direction: column;
     align-items: center;
-    gap: 0.5em;
+    gap: 0.2em;
+    font-size: 150%;
 }
 
 .nav-links{
     display: flex;
     list-style: none;
-    gap: 2em;
+    gap: 3em;
 }
 
 .nav-links a{
@@ -110,10 +111,6 @@ nav a:visited {
 
 nav a:hover {
   color: #8D6E63;
-}
-
-.prev-btn, .next-btn{
-    padding: 10px 15px;
 }
 
 /* About section */
@@ -291,6 +288,10 @@ nav a:hover {
     gap: 5px;
 }
 
+.prev-btn, .next-btn{
+    padding: 10px 15px;
+}
+
 #project-pictures-tall{
     display: flex;
     justify-content: right;
@@ -383,7 +384,9 @@ body.dark-mode nav a:visited {
 body.dark-mode .controls button,
 body.dark-mode footer,
 body.dark-mode .footer-links,
-body.dark-mode .footer-copy{
+body.dark-mode .footer-copy,
+body.dark-mode .prev-btn,
+body.dark-mode .next-btn{
     color: #D2B48C;
     background-color: #2a2a2a;
 }

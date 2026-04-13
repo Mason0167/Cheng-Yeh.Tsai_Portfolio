@@ -22,10 +22,28 @@ document.querySelectorAll('.project-pictures').forEach((slider) => {
   });
 });
 
+
+
 const themeToggle = document.getElementById('themeToggle');
 
 themeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     const isDark = document.body.classList.contains('dark-mode');
     themeToggle.textContent = isDark ? '☀️' : '🌙';
+
+    localStorage.setItem('preferredTheme', isDark);
 });
+
+
+const langToggle = document.getElementById('langToggle');
+
+langToggle.addEventListener('click', () => {
+  let currentLang = localStorage.getItem('currentLang');
+  currentLang = currentLang === 'EN' ? 'ZH' : 'EN';
+  
+  console.log(localStorage.getItem('currentLang'));
+  switchLanguage(currentLang);
+
+  langToggle.textContent = currentLang === 'EN' ? 'ZH' : 'EN';
+});
+
