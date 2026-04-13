@@ -398,10 +398,7 @@ body.dark-mode .slider-container-tall {
     border-color: #5D4037;
 }
 
-body.dark-mode .project-link a {
-    color: #D2B48C;
-}
-
+body.dark-mode .project-link a,
 body.dark-mode .footer-links a {
     color: #D2B48C;
 }
